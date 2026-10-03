@@ -11,8 +11,9 @@ const (
 	ILLEGAL = "ILLEGAL"
 	EOF     = "EOF"
 
-	IDENT = "IDENT" // 식별자(변수명, 인자명 등)
-	INT   = "INT"   // 리터럴(정수)
+	IDENT  = "IDENT" // 식별자(변수명, 인자명 등)
+	INT    = "INT"   // 리터럴(정수)
+	STRING = "STRING"
 
 	// 연산자
 	ASSIGN   = "="
@@ -32,10 +33,12 @@ const (
 	COMMA     = ","
 	SEMICOLON = ";"
 
-	LPAREN = "("
-	RPAREN = ")"
-	LBRACE = "{"
-	RBRACE = "}"
+	LPAREN   = "("
+	RPAREN   = ")"
+	LBRACE   = "{"
+	RBRACE   = "}"
+	LBRACKET = "["
+	RBRACKET = "]"
 
 	// 예약어
 	FUNCTION = "FUNCTION"
